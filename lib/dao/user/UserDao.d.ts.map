@@ -1,0 +1,1 @@
+{"version":3,"file":"UserDao.d.ts","sourceRoot":"","sources":["../../../dao/user/UserDao.ts"],"names":[],"mappings":"AAAA,OAAO,QAAQ,MAAM,aAAa,CAAC;AAInC;;;GAGG;AACH,MAAM,CAAC,OAAO,OAAO,OAAQ,SAAQ,QAAQ;gBAE/B,OAAO,GAAE,GAAQ;IAI7B;;;;OAIG;IACH,SAAS;IAIT;;;OAGG;IACH,OAAO,CAAC,EAAE,EAAC,MAAM,EAAE,OAAO,GAAE,GAAQ;CAOrC"}

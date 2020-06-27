@@ -1,0 +1,25 @@
+{
+  "name": "gringas-services",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@sei-atl/load-sql": "^1.0.19",
+    "@types/express": "^4.17.2",
+    "@types/node": "12.7.5",
+    "concurrently": "^5.0.2",
+    "express": "^4.17.1",
+    "log4js": "^6.1.0",
+    "mysql": "^2.17.1",
+    "nodemailer": "^6.3.1"    
+  },
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "watch-ts": "tsc -w",
+    "watch-node": "nodemon dist/server.js",
+    "watch": "concurrently -k -p \"[{name}]\" -n \"TypeScript, Node\" -c \"yello.bold, cyan.bold\" \"yarn run watch-ts\" \"yarn run watch-node\"",
+    "build": "tsc",
+    "prepare": "npm run build"
+  }
+}

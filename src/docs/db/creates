@@ -1,0 +1,10 @@
+DROP table user;
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL auto_increment,
+  `first_name` varchar(31),
+  `last_name` varchar(31),
+  `email` varchar(254),
+  `username` varchar(20),
+  `password` varchar(20),
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

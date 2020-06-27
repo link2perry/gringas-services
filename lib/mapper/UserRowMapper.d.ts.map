@@ -1,0 +1,1 @@
+{"version":3,"file":"UserRowMapper.d.ts","sourceRoot":"","sources":["../../mapper/UserRowMapper.ts"],"names":[],"mappings":"AAAA,OAAO,SAAS,MAAM,qBAAqB,CAAC;AAC5C,OAAO,IAAI,MAAM,eAAe,CAAC;AAIjC,MAAM,CAAC,OAAO,OAAO,aAAc,YAAW,SAAS,CAAC,IAAI,CAAC;IAE3D,MAAM,CAAC,GAAG,EAAE,GAAG,GAAG,IAAI;CAgBvB"}
